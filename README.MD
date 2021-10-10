@@ -1,21 +1,26 @@
-_Для установки eslint и prettier:_
-yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier eslint
+## Для установки eslint и prettier:
 
-_Для  .eslintrc_
+```
+yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier eslint
+```
+
+## Для .eslintrc
+
+```
 {
 "parser": "babel-eslint",
 "env": {
-"node": true,
-"browser": true,
-"es6": true
+    "node": true,
+    "browser": true,
+    "es6": true
 },
 "extends": ["airbnb", "airbnb/hooks", "plugin:prettier/recommended"],
 "plugins": ["prettier"],
 "rules": {
-"react/jsx-filename-extension": [0],
-"react/prop-types": [0],
-"react/jsx-one-expression-per-line": [0],
-"react/jsx-props-no-spreading": [0],
+    "react/jsx-filename-extension": [0],
+    "react/prop-types": [0],
+    "react/jsx-one-expression-per-line": [0],
+    "react/jsx-props-no-spreading": [0],
 
     "react-hooks/exhaustive-deps": [0],
 
@@ -23,13 +28,15 @@ _Для  .eslintrc_
     "no-use-before-define": [0],
     "arrow-body-style": [0],
     "no-console": [0],
-
     "import/prefer-default-export": [0]
 
+    }
 }
-}
+```
 
-_Для .prettierrc_
+## Для .prettierrc
+
+```
 {
 "semi": false,
 "trailingComma": "none",
@@ -37,10 +44,14 @@ _Для .prettierrc_
 "printWidth": 80,
 "arrowParens": "avoid"
 }
+```
 
-_Для settings.json_
+## Для settings.json
+
+```
 {
 "git.autofetch": true,
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true
 }
+```
