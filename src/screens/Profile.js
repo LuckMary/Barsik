@@ -1,7 +1,8 @@
 import React from 'react'
 import { View, Text } from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
-const App = () => {
+const ProfileScreen = () => {
   return (
     <View
       style={{
@@ -10,10 +11,9 @@ const App = () => {
         flex: 1
       }}
     >
-      <Text>jdhjsgjsjbdj</Text>
+      <Text>ProfileScreen</Text>
+      <Icon name="rocket" size={70} color="#900" />
     </View>
   )
 }
-export default App
-
-console.log('jbhhbukb')
+export default ProfileScreen
