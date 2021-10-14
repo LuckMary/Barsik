@@ -56,7 +56,13 @@ yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint
 }
 ```
 
-## Добавление иконок в /Users/mary/Desktop/Barsik/ios/Barsik/Info.plist
+## Добавление иконок 
+
+```
+yarn add react-native-vector-icons
+```
+
+### Для ios: в /Users/mary/Desktop/Barsik/ios/Barsik/Info.plist
 
 ```
 <key>UIAppFonts</key>
@@ -83,4 +89,10 @@ yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint
 
 ```
 cd ios && pod install
+```
+
+### Для android: в /Users/mary/Desktop/Barsik/android/app/build.gradle
+
+```
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
