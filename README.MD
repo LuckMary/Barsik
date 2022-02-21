@@ -1,7 +1,7 @@
 ## Для установки eslint и prettier:
 
 ```
-yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier eslint prettier
+yarn add -D eslint@7 babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier prettier eslint-plugin-prettier
 ```
 
 ## Для .eslintrc
